@@ -10,14 +10,20 @@ All configurations to change this is in the ~inc/config/ directory
 5) Create a directory in the root of your site (e.g. "website-information" using an FTP client (FileZilla Client or other), then transfer this code always with your FTP client to your server.
 6) Visit your site via the url of the directory you created when you send your files with FTP client (e.g. http://yoursite.com/website-information/)
 
+
 ###### Beau and commented code ######
 If you know a little programming, you can open the file with a text editor (Notepad++, gedit, Vim, ...) and read reviews.
 We took the maximum time to comment our code so that you are using our code.
+
 
 ###### MULTILINGUAL (Multi-language website) ######
 If you know a little programming, you can easily transform your site multilingual site, because all strings are specially designed for this feature.
 Just add a few lines of extra code (for example, in index.php).
 For more information, please read the documentation here: http://php.net/manual/en/book.gettext.php
+
+
+###### SERVER REQUIREMENTS ######
+PHP 5.3 or higher.
 
 
 
