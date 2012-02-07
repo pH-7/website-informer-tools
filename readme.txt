@@ -23,7 +23,7 @@ For more information, please read the documentation here: http://php.net/manual/
 
 
 ###### SERVER REQUIREMENTS ######
-PHP 5.3 or higher.
+PHP 5.3.0 or higher.
 
 
 
