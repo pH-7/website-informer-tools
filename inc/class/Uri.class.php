@@ -19,7 +19,7 @@ class Uri {
      /**
      * @var array $fragments
       */
-    public static $fragments = array();
+    private static $fragments = array();
 
     /**
     * @var object $_instance
