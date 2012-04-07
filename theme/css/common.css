@@ -6,7 +6,7 @@ body {
 }
 pre{margin:2px;font-style:italic}
 #content{margin:4px 0 4px}
-.error,.warning,.required{color:#ff0000;font-size:14px;font-weight:blod}
+.error,.warning,.required{color:#ff0000;font-size:14px;font-weight:bold}
 .italic{font-style:italic}
 .underline{text-decoration:underline}
 .frame{padding:20px;margin:100px;width:85%;border:2px solid white}
