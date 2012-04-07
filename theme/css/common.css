@@ -11,6 +11,7 @@ pre{margin:2px;font-style:italic}
 .underline{text-decoration:underline}
 .frame{padding:20px;margin:100px;width:85%;border:2px solid white}
 .frame_content{color:#000;margin:2px}
+input{margin:6px;width:220px;height:24px;font-size:16px}
 input[type=submit] {
  border:2px outset #A6BEDE;
  width:190px;
