@@ -18,7 +18,7 @@ defined('PH7') or exit('Restricted access');
 <h2><?php echo t('Contact US') ?></h2>
 
 <div class="contact_form">
-<form action="mailto:<?php echo $sEmail ?>" method="post">
+<form action="mailto:<?php echo $sEmail ?>" method="post" enctype="text/plain">
 <p><label for="name"><span class="required">*</span> <?php echo t('Full Name:') ?></label> <input type="text" name="name" id="name"  required="required" /></p>
  
 <p><label for="mail"><span class="required">*</span> <?php echo t('Email Address:') ?></label> <input type="email" name="mail" id="mail" required="required" /> </p>
