@@ -63,7 +63,7 @@ function isSite($sUrl) {
   */
 function isValidSite($sUrl) {
      $aUrl = @get_headers($sUrl);
-     return strpos($aUrl[0], '200 OK');
+     return (strpos($aUrl[0], '200 OK') || strpos($aUrl[0], '301 Moved Permanently'));
 }
 
 /**
